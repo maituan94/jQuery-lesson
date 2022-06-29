@@ -49,24 +49,28 @@
                                                 <form id="bookForm" class="row g-3">
                                                     <div class="col-12">
                                                         <label for="bookName" class="form-label">Book Name</label>
-                                                        <input type="text" class="form-control" name="name" id="bookName">
+                                                        <input type="text" class="form-control" name="name"
+                                                            id="bookName">
                                                     </div>
                                                     <div class="col-12">
                                                         <label for="bookName" class="form-label">Author</label>
-                                                        <input type="text" class="form-control" name="author" id="bookName">
+                                                        <input type="text" class="form-control" name="author"
+                                                            id="bookName">
                                                     </div>
                                                     <div class="col-12 fw-bold">Date Import</div>
                                                     <div class="col-md-6">
                                                         <label for="bookDate" class="form-label">Date</label>
-                                                        <input type="date" class="form-control" name="bookDate" id="bookDate">
+                                                        <input type="date" class="form-control" name="bookDate"
+                                                            id="bookDate">
                                                     </div>
                                                     <div class="col-md-6">
                                                         <label for="bookTime" class="form-label">Time</label>
-                                                        <input type="time" class="form-control" name="bookTime" id="bookTime">
+                                                        <input type="time" class="form-control" name="bookTime"
+                                                            id="bookTime">
                                                     </div>
                                                     <div class="col-12 form-floating">
-                                                        <textarea class="form-control"
-                                                            placeholder="Book Notes" name="bookNotes" id="bookNotes"
+                                                        <textarea class="form-control" placeholder="Book Notes"
+                                                            name="bookNotes" id="bookNotes"
                                                             style="height: 100px"></textarea>
                                                         <label for="bookNotes">Notes</label>
                                                     </div>
@@ -92,15 +96,15 @@
                                             Dropdown button
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" href="#">Name</a></li>
-                                            <li><a class="dropdown-item active" href="#">Date</a></li>
-                                            <li><a class="dropdown-item" href="#">Author</a></li>
+                                            <li><a class="dropdown-item" id="sortName" href="#">Name</a></li>
+                                            <li><a class="dropdown-item active" id="sortDate" href="#">Date</a></li>
+                                            <li><a class="dropdown-item" id="sortAuthor" href="#">Author</a></li>
                                             <li>
                                                 <div role="separator" class="dropdown-divider"></div>
                                             </li>
-                                            <li><a class="sort-dir dropdown-item" href="#" id="sort-asc">Asc</a></li>
+                                            <li><a class="sort-dir dropdown-item" href="#" id="sortAsc">Asc</a></li>
                                             <li><a class="sort-dir dropdown-item active" href="#"
-                                                    id="sort-desc">Desc</a></li>
+                                                    id="sortDesc">Desc</a></li>
                                         </ul>
                                     </div>
                                 </div> <!-- End Search & Sort-->
@@ -120,8 +124,8 @@
     <!--Footer-->
     <footer class="container text-white pt-3">
         <p class="text-center">jQuery Example Application</p>
-      </footer><!-- footer -->
-     <!--End Footer-->
+    </footer><!-- footer -->
+    <!--End Footer-->
 
     <!--underscore js-->
     <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.4/underscore-umd-min.js"></script>
@@ -130,11 +134,11 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
-        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <!--jQuery Load Teamplate plugin-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.loadtemplate/1.2.2/jquery.loadTemplate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.loadtemplate/1.5.0/jquery.loadTemplate.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.min.js"></script>
     <!--script-->
