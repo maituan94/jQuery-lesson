@@ -55,7 +55,7 @@
                                                     <div class="col-12">
                                                         <label for="bookName" class="form-label">Author</label>
                                                         <input type="text" class="form-control" name="author"
-                                                            id="bookName">
+                                                            id="bookAuthor">
                                                     </div>
                                                     <div class="col-12 fw-bold">Date Import</div>
                                                     <div class="col-md-6">
@@ -96,9 +96,9 @@
                                             Dropdown button
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <li><a class="dropdown-item" id="sortName" href="#">Name</a></li>
-                                            <li><a class="dropdown-item active" id="sortDate" href="#">Date</a></li>
-                                            <li><a class="dropdown-item" id="sortAuthor" href="#">Author</a></li>
+                                            <li><a class="sort-by dropdown-item" id="sortName" href="#">Name</a></li>
+                                            <li><a class="sort-by dropdown-item active" id="sortDate" href="#">Date</a></li>
+                                            <li><a class="sort-by dropdown-item" id="sortAuthor" href="#">Author</a></li>
                                             <li>
                                                 <div role="separator" class="dropdown-divider"></div>
                                             </li>
@@ -140,6 +140,7 @@
     <!--jQuery Load Teamplate plugin-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.loadtemplate/1.5.0/jquery.loadTemplate.min.js"></script>
 
+    <!--jQuery date format-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-dateFormat/1.0/jquery.dateFormat.min.js"></script>
     <!--script-->
     <script src="js/script.js"></script>

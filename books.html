@@ -1,10 +1,10 @@
-<div class="book-item pt-3 pb-3 align-items-center">
+<div class="book-item pt-3 pb-3 align-items-center" data-id="id">
     <div class="flex-grow-1">
-        <div class="book-name fs-4 fw-bold"></div>
-        <div class="author fs-6">Author: <span class="author-name"></span></div>
-        <div class="notes"></div>
+        <div data-content='name' class="book-name fs-4 fw-bold"></div>
+        <div data-content='author' class="author fs-6">Author: <span class="author-name"></span></div>
+        <div data-content='notes' class="notes"></div>
     </div>
-    <div class="date fs-6"></div>
+    <div data-format='formatDate' data-content='date' class="date fs-6"></div>
     <div class="flex-shrink-1 ps-3">
         <button class="book-delete btn btn-sm btn-danger">
             <i class="fas fa-times"></i></button>
