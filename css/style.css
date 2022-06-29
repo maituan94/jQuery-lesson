@@ -50,6 +50,7 @@ body {
 .book-item{
     border-top: solid 2px var(--grey);
     border-bottom: solid 2px var(--grey);
+    display: flex;
 }
 
 .book-item:first-child{
