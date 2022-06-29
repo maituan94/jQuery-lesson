@@ -1,0 +1,73 @@
+:root {
+    --dark-blue: #1D3557;
+    --light-blue: #457B9D;
+    --semi-green-blue: #A8DADC;
+    --wheat: #F1FAEE;
+    --dark-pink: #E63946;
+    --text-black: black;
+    --text-white: white;
+    --grey: #cccccc;
+}
+
+body {
+    background-color: var(--light-blue);
+    font-weight: 300;
+    position: relative;
+}
+
+.page {
+    height: calc(100vh - 109px);
+    overflow: auto;
+}
+
+/* button style */
+.btn.btn-primary {
+    background-color: var(--dark-blue);
+}
+
+.btn.btn-secondary.add-book-button {
+    background-color: var(--dark-pink);
+    color: var(--text-white);
+}
+
+.btn.btn-secondary.sort-button {
+    background-color: var(--semi-green-blue);
+    color: var(--text-black);
+}
+
+.btn.btn-secondary:hover,
+.btn.btn-primary:hover {
+    opacity: 0.8;
+    transition: ease-in-out 0.5s;
+}
+
+.dropdown-item.active {
+    color: var(--text-black);
+    background-color: var(--semi-green-blue);
+}
+
+/* book list & item*/
+.book-item{
+    border-top: solid 2px var(--grey);
+    border-bottom: solid 2px var(--grey);
+}
+
+.book-item:first-child{
+    border-top: none;
+}
+.book-name {
+    color: var(--light-blue);
+}
+.author {
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+.author .author-name {
+    color: var(--text-black);
+    font-weight: 300;
+}
+
+.notes {
+    font-size: 0.75rem;
+    color: var(--text-black);
+}
